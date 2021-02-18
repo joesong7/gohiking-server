@@ -28,11 +28,7 @@ pipeline {
 
              }
          }
-         stage('Make Zip Artifacts') {
-             steps {
-                 zip zipFile: 'gohiking-server.zip'
-            }
-        7 }
+        
     }
     
    
